@@ -1,7 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Component, OnInit, signal } from '@angular/core';
 import { MatTableDataSource, MatTableModule } from '@angular/material/table';
-import { Message } from '../../core/services/models/message.interface';
+import { Message } from '../../core/models/message.interface';
 import { MessageService } from '../../core/services/message.service';
 import { MatDialog } from '@angular/material/dialog';
 import { MessageDetailComponent } from '../components/message-detail/message-detail.component';

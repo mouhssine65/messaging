@@ -5,7 +5,7 @@ import { MatDialog } from '@angular/material/dialog';
 import { PartnerService } from '../core/services/partner.service';
 import { DeleteConfirmationComponent } from './components/delete-confirmation/delete-confirmation.component';
 import { Router } from '@angular/router';
-import { Partner } from '../core/services/models/partner.interface';
+import { Partner } from '../core/models/partner.interface';
 
 
 

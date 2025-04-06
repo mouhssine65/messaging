@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { PartnerService } from '../../../core/services/partner.service';
 import { Router } from '@angular/router';
-import { Partner } from '../../../core/services/models/partner.interface';
+import { Partner } from '../../../core/models/partner.interface';
 
 @Component({
   selector: 'app-page-add-partner',
